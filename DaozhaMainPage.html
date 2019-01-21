@@ -1,7 +1,7 @@
 <!-- Learn about this code on MDN: https://developer.mozilla.org/en-US/docs/Web/API/FileReader/readAsDataURL -->
 <html>
 <link>
-<title>Body key points labeling</title>
+<title>Object key points labeling</title>
 <script type="application/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
       integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -14,11 +14,11 @@
 <div class="container">
     <h1>Key points labeling tool</h1>
     <h3>4 key-points: 0.凸刀根部, 1.凸刀尾部, 2.凹刀尾部, 3.凹刀根部</h3>
-    <h5>Click or type in S key to skip to the next body key point, if the current body point is not available in the image, X and Y
+    <h5>Click or type in S key to skip to the next object key point, if the current object point is not available in the image, X and Y
         coordinates will return x:N/A, y:N/A by typing S key
     </h5>
     <h5>
-        Click or type in D key to delete the last body key point.
+        Click or type in D key to delete the last object key point.
     </h5>
     <input class="upload_image" type="file" onchange="previewFile.call(this)">
     <input type="text" size="50" onkeydown="keyCode(event)" value="Type S to skip, D to delete.">
